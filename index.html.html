@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NJ'S STUDIO</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- ✅ En-tête avec logo et menu -->
+    <header>
+        <h1>NJ’S STUDIO</h1>
+        <nav>
+            <a href="#">Accueil</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#feedback">Feedback</a>
+            <a href="#contact">Contact</a>
+            <a href="#rechercher">Rechercher</a>
+        </nav>
+    </header>
+
+    <!-- ✅ Section de présentation -->
+    <section class="hero">  
+        <div class="logo">
+            <img src="C:\Users\DELL\Documents\NJS\DISGN\2-removebg-preview.png">
+        </div>
+        <h2>Moins de bla-bla, plus de cut-cut</h2>
+        <p>Parce qu’après 3 secondes, c’est soit un clic, soit un skip.</p>
+    </section>
+
+    <!-- ✅ Section Services -->
+    <h3 id="services">Nos Services</h3>
+    <section class="services">
+        <div class="service-card">Montage Vidéo</div>
+        <div class="service-card">Filming & Captation</div>
+        <div class="service-card">Voiceover & Storytelling</div>
+        <div class="service-card">Stratégie de Contenu</div>
+        <div class="service-card">Design : Logo & Post</div>
+        <div class="service-card">Web Development</div>
+    </section>
+
+    <!-- ✅ Section Packs -->
+    <section class="packs">
+        <p><a href="#">Voir nos packs</a></p>
+        <p>Besoin d’un pack sur mesure ? <a href="#">Obtenir un devis !</a></p>
+    </section>
+    
+
+    <!-- ✅ Section Feedback avec notation par étoiles -->
+    <section id="feedback" class="feedback">
+        <h3>Commentaires :</h3>
+        <input type="text" id="comment" placeholder="Ajouter un commentaire...">
+        <button class="confirm">Confirmer</button>
+        <button class="cancel">Annuler</button>
+        
+        <h3>Notez notre site :</h3>
+        <div class="rating">
+            <button class="star" data-value="1">★</button>
+            <button class="star" data-value="2">★</button>
+            <button class="star" data-value="3">★</button>
+            <button class="star" data-value="4">★</button>
+            <button class="star" data-value="5">★</button>
+        </div>
+        <p id="rating-message"></p>
+    </section>
+
+    <!-- ✅ Pied de page -->
+    <footer id="contact">
+        <p>Contact : Email | Numéro de téléphone </p>
+    </footer>
+    <div class="logo">
+        <img src="C:\Users\DELL\Documents\NJS\DISGN\logo+slogan.png.png" >
+    </div>
+</body>
+</html>
